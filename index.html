@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft MVP | Data Engineer | Power BI Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Francis Folaranmi</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Francis Folaranmi</span>
+                </h1>
+                <h2 class="hero-subtitle">Microsoft MVP | Data Engineer | Power BI Developer</h2>
+                <p class="hero-description">
+                    Microsoft MVP for Microsoft Fabric and Power BI, currently serving as Fabric Data Engineer at Onyx Data. 
+                    I specialize in designing enterprise-scale data solutions, building real-time analytics pipelines, and 
+                    implementing comprehensive data warehouses using Microsoft Fabric and Azure technologies. With extensive 
+                    experience across healthcare, fintech, government, and banking sectors, I transform complex data challenges 
+                    into actionable business insights. I'm passionate about community leadership and share knowledge through my 
+                    YouTube channel <strong>@FFAnalytics</strong>, delivering Microsoft Fabric tutorials and best practices 
+                    to empower the global data community.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="data-visualization">
+                    <div class="chart-container">
+                        <canvas id="heroChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a <strong>results-driven Data Engineer</strong> with a strong background in designing, building, 
+                        and optimizing data pipelines and architectures. Currently serving as a <strong>Fabric Data Engineer 
+                        at Onyx Data</strong>, I specialize in leveraging cloud platforms, particularly Microsoft Fabric, 
+                        to deliver scalable and efficient data solutions.
+                    </p>
+                    <p>
+                        As a <strong>Microsoft Most Valuable Professional (MVP)</strong> in Microsoft Fabric and Power BI, 
+                        I demonstrate expertise in modern data ecosystems with a commitment to community engagement and 
+                        continuous learning. I'm skilled in working with large datasets, implementing ETL processes, 
+                        and ensuring data integrity for advanced analytics and business intelligence.
+                    </p>
+                    <p>
+                        My experience spans across various industries including fintech, healthcare, education, and 
+                        telecommunications, where I've collaborated with cross-functional teams to translate business 
+                        requirements into technical solutions that drive actionable insights. I hold a <strong>Bachelor's 
+                        Degree in Pharmacy (B.Pharm)</strong> from Obafemi Awolowo University, Ile-Ife, and my interest 
+                        in Data Science was birthed from my undergraduate dissertation project.
+                    </p>
+                    <p>
+                        I'm passionate about community leadership, serving as the <strong>Microsoft Fabric Community Leader</strong> 
+                        in Nigeria, driving physical meetups and delivering live hands-on sessions. I also lead the 
+                        <strong>Data Analytics Elites Community</strong> as Power BI Lead Facilitator, organizing academy 
+                        cohorts and training sessions. Through my YouTube channel <strong>@FFAnalytics</strong>, I create 
+                        structured Microsoft Fabric courses and tutorials for the global data community.
+                    </p>
+                    <div class="certifications-mini">
+                        <h4>Certifications:</h4>
+                        <ul>
+                            <li><a href="https://learn.microsoft.com/api/credentials/share/en-us/FrancisFolaranmi-3232/5E9B23814455A211?sharingId" target="_blank">Microsoft Certified: Fabric Data Engineer Associate</a></li>
+                            <li><a href="https://learn.microsoft.com/api/credentials/share/en-us/FrancisFolaranmi-3232/1B288E1ADCACF29F?sharingId" target="_blank">Microsoft Certified: Fabric Analytics Engineer Associate</a></li>
+                            <li><a href="https://learn.microsoft.com/api/credentials/share/en-us/FrancisFolaranmi-3232/6271FCAFA297F356?sharingId" target="_blank">Microsoft Applied Skills: Implement a Real-Time Intelligence solution with Microsoft Fabric</a></li>
+                            <li><a href="https://www.credly.com/badges/0fc2b0c8-5426-4862-85be-8d8796afaf26/linked_in_profile" target="_blank">2024 Microsoft Most Valuable Professional (MVP)</a></li>
+                            <li><a href="https://learn.microsoft.com/api/credentials/share/en-us/FrancisFolaranmi-3232/7B72C5787E520801?sharingId=8D9386D89CBDA009" target="_blank">Microsoft Certified: Azure Enterprise Data Analyst Associate</a></li>
+                            <li><a href="https://www.credly.com/badges/85141401-c93b-43b6-915a-65aca4e99412/linked_in_profile" target="_blank">Microsoft Certified: Power BI Data Analyst Associate</a></li>
+                            <li><a href="https://www.credly.com/badges/08fc4f8b-1031-4de6-9f6d-210d0da4b2d2?source=linked_in_profile" target="_blank">Microsoft Certified: Azure Data Fundamentals</a></li>
+                            <li><a href="https://enterprise-dna.verified.cv/en/credentials/francisfolaranmi658567" target="_blank">Power BI Certifications (Enterprise DNA)</a></li>
+                        </ul>
+                    </div>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>20+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Microsoft</h3>
+                            <p>MVP Award</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <h3>Francis Folaranmi</h3>
+                        <p>Microsoft MVP | Data Engineer | Power BI Developer</p>
+                        <div class="social-links">
+                            <a href="http://www.linkedin.com/in/francis-folaranmi-571834a7"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/DonFrancis1"><i class="fab fa-github"></i></a>
+                            <a href="https://www.youtube.com/@FFAnalytics" title="YouTube Channel - Microsoft Fabric Content"><i class="fab fa-youtube"></i></a>
+                            <a href="mailto:folaranmifrancis@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & Data Platforms</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Microsoft Fabric</span>
+                        <span class="skill-tag">Microsoft Azure</span>
+                        <span class="skill-tag">Azure Data Factory</span>
+                        <span class="skill-tag">Azure Synapse Analytics</span>
+                        <span class="skill-tag">Azure Databricks</span>
+                        <span class="skill-tag">Azure SQL</span>
+                        <span class="skill-tag">SSIS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Business Intelligence & Analytics</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Microsoft Power BI</span>
+                        <span class="skill-tag">Power Query</span>
+                        <span class="skill-tag">DAX</span>
+                        <span class="skill-tag">Data Modeling</span>
+                        <span class="skill-tag">Data Visualization</span>
+                        <span class="skill-tag">Data Storytelling</span>
+                        <span class="skill-tag">KQL (Kusto Query Language)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database & SQL Technologies</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Microsoft SQL Server</span>
+                        <span class="skill-tag">T-SQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Database Querying</span>
+                        <span class="skill-tag">Database Design</span>
+                        <span class="skill-tag">Query Optimization</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming & Development</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PySpark</span>
+                        <span class="skill-tag">Microsoft Excel</span>
+                        <span class="skill-tag">Power Apps</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> Data Engineering & ETL</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Data Warehousing</span>
+                        <span class="skill-tag">ETL/ELT Processes</span>
+                        <span class="skill-tag">Data Pipelines</span>
+                        <span class="skill-tag">Real-time Data Processing</span>
+                        <span class="skill-tag">Data Integration</span>
+                        <span class="skill-tag">NotebookUtils Library</span>
+                        <span class="skill-tag">Sempy Library</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-industry"></i> Industry Expertise</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Healthcare & Pharmaceutical</span>
+                        <span class="skill-tag">Financial Services & Banking</span>
+                        <span class="skill-tag">Maritime Industry</span>
+                        <span class="skill-tag">Government & Public Sector</span>
+                        <span class="skill-tag">Education Technology</span>
+                        <span class="skill-tag">Telecommunications</span>
+                        <span class="skill-tag">Consulting</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Microsoft Fabric Stroke Prediction</h3>
+                        <p>Comprehensive end-to-end project to predict stroke using Microsoft Fabric, incorporating Data Engineering, Data Analysis, and Data Science components.</p>
+                        <div class="project-tech">
+                            <span>Microsoft Fabric</span>
+                            <span>Data Engineering</span>
+                            <span>Data Analysis</span>
+                            <span>Data Science</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/MS-Fabric-End-to-End-Project" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Global Peace Index with Microsoft Fabric</h3>
+                        <p>End-to-end Microsoft Fabric project analyzing global peace indices across countries, demonstrating comprehensive data engineering and analytics capabilities.</p>
+                        <div class="project-tech">
+                            <span>Microsoft Fabric</span>
+                            <span>Data Engineering</span>
+                            <span>Global Analytics</span>
+                            <span>Peace Index Analysis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/Global-Peace-Index-with-Microsoft-Fabric" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Fabric Incremental Load with Data Factory</h3>
+                        <p>Demonstrates incremental data loading techniques using Microsoft Fabric Data Factory for efficient data pipeline management and optimization.</p>
+                        <div class="project-tech">
+                            <span>Microsoft Fabric</span>
+                            <span>Data Factory</span>
+                            <span>Incremental Load</span>
+                            <span>Data Pipelines</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/Fabric-Saturday-Incremental-Load-with-Fabric-Data-Factory-" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Logistics Company Analytics</h3>
+                        <p>Comprehensive logistics analytics dashboard featuring executive summary and inventory tracker for operational insights and optimization.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>Executive Dashboard</span>
+                            <span>Inventory Management</span>
+                            <span>Logistics Analytics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/Logistics-Company/blob/main/README.md" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiOGQ1M2JhMmEtNThmMS00ZDhiLTliYTAtZGNhNjZhM2M4ZjUzIiwidCI6IjgyMjU5N2NkLTQ1ZTYtNDEzMS1hM2JkLTNiNWUwZTFhNzI0MyJ9" class="project-link"><i class="fas fa-external-link-alt"></i> Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>CredPal Fintech Analytics</h3>
+                        <p>Analyzed consumers' spending habits, savings capacity, and demonstrated the scalability of CredPal's financial solutions through comprehensive data analysis.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>Financial Analysis</span>
+                            <span>Consumer Behavior</span>
+                            <span>Fintech</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/Fintech-Project" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiYTE5ZGIyODAtMGQ5Zi00OWY4LWE3ZDItYjNiMzdhOThmYTcyIiwidCI6IjgyMjU5N2NkLTQ1ZTYtNDEzMS1hM2JkLTNiNWUwZTFhNzI0MyJ9" class="project-link"><i class="fas fa-external-link-alt"></i> Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Pharmaceutical Multinational Analysis</h3>
+                        <p>Comprehensive analysis of pharmaceutical company operations including revenue generation, product analysis, regional performance, and time-based trends.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>Healthcare Analytics</span>
+                            <span>Revenue Analysis</span>
+                            <span>Regional Analysis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/Pharma-Multinational" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiYTA3OWI0YzktZDA0Zi00NzgyLThjNjUtODAwNWY0YjM2NmU2IiwidCI6IjgyMjU5N2NkLTQ1ZTYtNDEzMS1hM2JkLTNiNWUwZTFhNzI0MyJ9" class="project-link"><i class="fas fa-external-link-alt"></i> Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>EDNA Call Center Analytics</h3>
+                        <p>Call center performance analysis including time analysis, regulatory compliance monitoring, and cost analysis for operational optimization.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>Call Center Analytics</span>
+                            <span>Compliance Monitoring</span>
+                            <span>Cost Analysis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/EDNA-Call-Center" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiYzQ3MDIyNDMtMWVjZi00ZDMzLWIzOWYtOWNjMGUxZWE3MGRjIiwidCI6IjgyMjU5N2NkLTQ1ZTYtNDEzMS1hM2JkLTNiNWUwZTFhNzI0MyJ9&pageName=ReportSection5677ac29c2135fab5068" class="project-link"><i class="fas fa-external-link-alt"></i> Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>BuyBuy SQL Analytics Project</h3>
+                        <p>SQL-based analysis focusing on time-profit analysis, regional profit assessment, and product revenue analysis for strategic business insights.</p>
+                        <div class="project-tech">
+                            <span>SQL Server</span>
+                            <span>Profit Analysis</span>
+                            <span>Regional Analysis</span>
+                            <span>Revenue Analytics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/BUYBUY-PROJECT/blob/main/README.md" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-youtube"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>YouTube Channel Analytics</h3>
+                        <p>Comprehensive analytics dashboard analyzing engagement metrics, content performance, and viewer demographics for YouTube channel optimization.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>Engagement Metrics</span>
+                            <span>Content Analysis</span>
+                            <span>Viewer Analytics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/YouTube-Channel-Analytics" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiODFjOTU4YjUtZDIyMi00YzE5LWEzYjQtOGVkMmZiMzgzZjMwIiwidCI6IjgyMjU5N2NkLTQ1ZTYtNDEzMS1hM2JkLTNiNWUwZTFhNzI0MyJ9" class="project-link"><i class="fas fa-external-link-alt"></i> Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive Resume Dashboard</h3>
+                        <p>An interactive Power BI dashboard showcasing professional resume and career highlights in a visually compelling format.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>Interactive Design</span>
+                            <span>Career Showcase</span>
+                            <span>Personal Branding</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/My-Resume-Dashboard" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiMDJhNGEzODQtNmFlNS00NjhjLTgyMzMtMTQxYzkzM2JlM2EwIiwidCI6IjgyMjU5N2NkLTQ1ZTYtNDEzMS1hM2JkLTNiNWUwZTFhNzI0MyJ9" class="project-link"><i class="fas fa-external-link-alt"></i> Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Substance Abuse Analytics</h3>
+                        <p>Healthcare analytics project focusing on substance abuse program comparison, demographic analysis, and identification of key drivers for treatment outcomes.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>Healthcare Analytics</span>
+                            <span>Program Comparison</span>
+                            <span>Demographic Analysis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/Health---Substance-Abuse-Analytics" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiYmRiMGNiOTItNjIzMy00NjY2LThkZTUtOWZiMjk2ODYyZTgzIiwidCI6IjgyMjU5N2NkLTQ1ZTYtNDEzMS1hM2JkLTNiNWUwZTFhNzI0MyJ9&pageName=ReportSectione74f425ac0e410734870" class="project-link"><i class="fas fa-external-link-alt"></i> Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Automobile Performance Dashboard</h3>
+                        <p>Automotive analytics dashboard analyzing horsepower and RPM performance metrics for different automobile brands and models.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>Automotive Analytics</span>
+                            <span>Performance Metrics</span>
+                            <span>Brand Comparison</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/Automobile-Dashboard" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiMmFkODgwOTAtYzU2ZS00MjM2LTljYTYtNDMwNjY5ZTZhM2VhIiwidCI6IjgyMjU5N2NkLTQ1ZTYtNDEzMS1hM2JkLTNiNWUwZTFhNzI0MyJ9" class="project-link"><i class="fas fa-external-link-alt"></i> Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Twitter Profile Analytics</h3>
+                        <p>Personal social media analytics project tracking Twitter profile performance including tweets, engagement, likes, retweets, and follower growth.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>Social Media Analytics</span>
+                            <span>Engagement Tracking</span>
+                            <span>Performance Metrics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/Twitter-Profile-Analytics-Personal-" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiMzY4Mjc0ODgtODc5MS00NjhiLTkwNTUtYTgzOWQwODU5MWQyIiwidCI6IjgyMjU5N2NkLTQ1ZTYtNDEzMS1hM2JkLTNiNWUwZTFhNzI0MyJ9&pageName=ReportSection" class="project-link"><i class="fas fa-external-link-alt"></i> Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Palmoria Group HR Analytics</h3>
+                        <p>HR analytics project addressing gender inequality within the organization through comprehensive workforce data analysis and diversity metrics.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>HR Analytics</span>
+                            <span>Gender Equality</span>
+                            <span>Workforce Analysis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/DonFrancis1/Palmoria-" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiZTMxMTE4MzktZjhjNC00NTA0LWJlMDItNTk3ZjcxNTI0MTIzIiwidCI6IjgyMjU5N2NkLTQ1ZTYtNDEzMS1hM2JkLTNiNWUwZTFhNzI0MyJ9" class="project-link"><i class="fas fa-external-link-alt"></i> Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Fabric Data Engineer</h3>
+                        <h4>Onyx Data | London, Remote</h4>
+                        <p>Building enterprise-scale data solutions using Microsoft Fabric, focusing on real-time data processing and advanced analytics implementations.</p>
+                        <ul>
+                            <li>Building custom notification systems using Fabric event-based triggered data pipelines orchestrated from Data Activator for real-time intelligence</li>
+                            <li>Developing notebooks to ensure near real-time data refresh of Lakehouse SQL Endpoints</li>
+                            <li>Reading and writing data in complex folder and file paths using NotebookUtils library</li>
+                            <li>Automating lakehouse administration with Sempy library</li>
+                            <li>Creating real-time dashboards using KQL to query Kusto databases in Fabric Eventhouse</li>
+                            <li>Developing Enterprise data warehouse from API data sources (StarLink API), streaming data sources, and relational databases</li>
+                            <li>Managing and building data pipelines to ingest data to their destination</li>
+                            <li>Implementing complex ETL/ELT processes to provide data to data consumers</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Nov 2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Senior Data Consultant (Contract)</h3>
+                        <h4>Omniswift Nigeria Limited</h4>
+                        <p>Leading strategic data initiatives for government and enterprise clients, focusing on Azure cloud solutions and Power BI implementations.</p>
+                        <ul>
+                            <li>Developed visualization to provide executive summary of Nigerian Education Loan Fund to stakeholders in Ministry of Education</li>
+                            <li>Created reporting hub with Power BI to monitor Presidential Metering Initiative for stakeholders in Ministry of Power</li>
+                            <li>Spearheading a team for Azure Synapse Analytics proof of concept at National Electricity Regulatory Commission (NERC)</li>
+                            <li>Implementation of Synapse Analytics for NERC for central reporting and visualization for major stakeholders in Power sector</li>
+                            <li>Deployment of Azure SQL database for enterprise data solutions</li>
+                            <li>Developing training materials for governmental MDAs</li>
+                            <li>Coordinating and delivering Power BI training sessions to MDA staff</li>
+                            <li>Offering guidance on available Power BI licensing options to clients</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2023 - Aug 2024</div>
+                    <div class="timeline-content">
+                        <h3>Data Analyst</h3>
+                        <h4>Asset & Resource Management Holding</h4>
+                        <p>Led enterprise data warehouse implementation and developed comprehensive analytics solutions for operational efficiency.</p>
+                        <ul>
+                            <li>Setting up Azure Synapse Analytics as enterprise data warehouse</li>
+                            <li>Development of data pipelines to maintain the enterprise data warehouse</li>
+                            <li>Technical support for Enterprise Data warehouse projects</li>
+                            <li>Developed Power BI reports to measure turnaround time of operation teams, improving operational efficiency by reducing processing time from 36hrs to less than 2 hours</li>
+                            <li>Delivered Voice of Silent customers analytics to drive customer satisfaction</li>
+                            <li>Overseeing CX and Operation workspaces to ensure efficient sharing/distribution of reports, dashboards and Power BI apps</li>
+                            <li>Built Clients' engagement dashboard to derive customer satisfaction</li>
+                            <li>Created reports to monitor/track dormant clients reactivating their investment accounts</li>
+                            <li>Performing ad hoc analysis to improve organizational processes</li>
+                            <li>Developing SQL scripts to create reports for bi-weekly/monthly management meetings</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Feb 2023 - Aug 2024</div>
+                    <div class="timeline-content">
+                        <h3>Fabric Analytics Engineer (Contract)</h3>
+                        <h4>Zeki Consulting Group Ltd | Leeds, United Kingdom</h4>
+                        <p>Specialized in enterprise data warehouse solutions and Microsoft Fabric implementations for multiple clients.</p>
+                        <ul>
+                            <li>Setting up enterprise data warehouse (EDW) using Azure Synapse Analytics for multiple clients</li>
+                            <li>Technical support for Enterprise Data warehouse projects</li>
+                            <li>Development and Deployment of Clients' Power BI Solutions from On-Prem and Cloud data sources</li>
+                            <li>Creation of Proof of Concept on Microsoft Fabric</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2022 - Jul 2023</div>
+                    <div class="timeline-content">
+                        <h3>Power BI Developer</h3>
+                        <h4>First Bank Of Nigeria Ltd | Marina, Lagos</h4>
+                        <p>Pioneered Azure Synapse Analytics adoption and developed comprehensive Power BI solutions for one of Nigeria's largest banks.</p>
+                        <ul>
+                            <li>Initiated and championed the exploration and adoption of Azure Synapse Analytics as Enterprise data warehousing solution</li>
+                            <li>Implementation of Azure Synapse Analytics as Enterprise data warehouse (EDW) for central reporting and visualization</li>
+                            <li>Technical support for Enterprise Data warehouse projects</li>
+                            <li>Deployed Azure SQL database for enterprise data solutions</li>
+                            <li>Developed reports with modeling best practice to Monitor Cash Swaps in all branches of FBN across the country</li>
+                            <li>Curated reports for Cash Rendition to bank branches in line with CBN's new currency notes</li>
+                            <li>Created Monitoring dashboard for Cash evacuation to CBN from all bank branches</li>
+                            <li>Deployed and shared/distributed reports across multiple departments utilizing dedicated workspaces and Power BI Apps</li>
+                            <li>Built reports for top management decision-making using advanced visualization techniques</li>
+                            <li>Collaborated with QA teams to manage SIT and UAT according to business requirement documents</li>
+                            <li>Worked with design teams on reports wireframing for optimal UI/UX</li>
+                            <li>Automating processes in collaboration with Power Apps/Power Automate developers</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2021 - Jul 2022</div>
+                    <div class="timeline-content">
+                        <h3>Data Analyst</h3>
+                        <h4>SDSD</h4>
+                        <p>Focused on sales analytics and client conversion through data-driven insights and strategic analysis.</p>
+                        <ul>
+                            <li>Generated Sales Prospects by analyzing Social Media, Email Marketing and Website data</li>
+                            <li>Converted Sales Prospects to Clients by performing Prescriptive analysis to solve their Business Problems</li>
+                            <li>Improved Clients experience through Diagnostic and Preventive analysis for products and services offered</li>
+                            <li>Created KPIs to measure, improve, monitor and manage projects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in discussing data analytics opportunities, collaborating on Microsoft Fabric and Power BI projects, sharing knowledge through my YouTube channel, or connecting about the latest in Microsoft's data platform technologies as an MVP.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>folaranmifrancis@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+234-7068-931-499</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Nigeria</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="http://www.linkedin.com/in/francis-folaranmi-571834a7"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/DonFrancis1"><i class="fab fa-github"></i></a>
+                        <a href="https://www.youtube.com/@FFAnalytics" title="YouTube Channel - Microsoft Fabric Content"><i class="fab fa-youtube"></i></a>
+                        <a href="mailto:folaranmifrancis@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Francis Folaranmi. All rights reserved.</p>
+                <p>Built with passion for data analytics and business intelligence</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
