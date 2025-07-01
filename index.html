@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <!-- Navigation -->
@@ -23,6 +24,11 @@
                 <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
+            <div class="theme-switcher">
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun" id="themeIcon"></i>
+                </button>
+            </div>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -54,9 +60,32 @@
                 </div>
             </div>
             <div class="hero-image">
-                <div class="data-visualization">
-                    <div class="chart-container">
-                        <canvas id="heroChart"></canvas>
+                <div class="hero-profile">
+                    <div class="profile-image-container">
+                        <img src="HDS24.jpg" alt="Francis Folaranmi - Microsoft MVP" class="profile-image">
+                        <div class="mvp-badge">
+                            <i class="fas fa-medal"></i>
+                            <span>Microsoft MVP</span>
+                        </div>
+                    </div>
+                    <div class="data-visualization">
+                        <div class="chart-container">
+                            <canvas id="skillsChart"></canvas>
+                        </div>
+                        <div class="stats-mini">
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="20">0</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="4">0</span>
+                                <span class="stat-label">Years Exp</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="8">0</span>
+                                <span class="stat-label">Certifications</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,7 +155,7 @@
                 <div class="about-image">
                     <div class="profile-card">
                         <div class="profile-image">
-                            <i class="fas fa-user-circle"></i>
+                            <img src="HDS24.jpg" alt="Francis Folaranmi - Microsoft MVP" class="about-profile-img">
                         </div>
                         <h3>Francis Folaranmi</h3>
                         <p>Microsoft MVP | Data Engineer | Power BI Developer</p>
